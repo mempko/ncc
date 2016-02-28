@@ -1,0 +1,12 @@
+# the library's configuration is
+# controlled through the CONFIG variable
+
+#CONFIG = \
+
+LUA_PATH=/usr/include/lua5.1/
+LUABIND_PATH=/usr/include/luabind/
+ALTINCLUDES=/usr/local/include
+INCLUDES=include
+
+CXX = g++
+

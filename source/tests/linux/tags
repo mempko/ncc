@@ -1,0 +1,158 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ARGS	Makefile	/^ARGS=-O3$/;"	m
+AddBox	Data/boxstack.lua	/^function AddBox()$/;"	f
+BulletController	example6.cpp	/^	BulletController(ManagerHolder& mgrs) : managers(mgrs) {}$/;"	f	class:BulletController	access:public	signature:(ManagerHolder& mgrs)
+BulletController	example6.cpp	/^class BulletController : public ncc::controller::abstract_interface$/;"	c	file:	inherits:ncc::controller::abstract_interface
+BulletController::BulletController	example6.cpp	/^	BulletController(ManagerHolder& mgrs) : managers(mgrs) {}$/;"	f	class:BulletController	access:public	signature:(ManagerHolder& mgrs)
+BulletController::bullet	example6.cpp	/^	ncc::object::weak_ptr bullet;$/;"	m	class:BulletController	file:	access:private
+BulletController::clone_prototype	example6.cpp	/^	ncc::controller::abstract_interface* clone_prototype()$/;"	f	class:BulletController	file:	access:private	signature:()
+BulletController::collision_callback	example6.cpp	/^	bool collision_callback(const ncc::ode::collision_info info)$/;"	f	class:BulletController	access:public	signature:(const ncc::ode::collision_info info)
+BulletController::handle_message	example6.cpp	/^	void handle_message(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)$/;"	f	class:BulletController	access:public	signature:(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)
+BulletController::initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:BulletController	access:public	signature:(const ncc::parameter_list& params)
+BulletController::managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:BulletController	file:	access:private
+BulletController::~BulletController	example6.cpp	/^	~BulletController()$/;"	f	class:BulletController	access:public	signature:()
+CreateEnemies	example6.cpp	/^	void CreateEnemies()$/;"	f	class:WorldController	access:public	signature:()
+CreateSpheres	Data/main.lua	/^function CreateSpheres()$/;"	f
+EXECUTABLES	Makefile	/^EXECUTABLES = $(SOURCES:.cpp=)$/;"	m
+EnemyController	example6.cpp	/^	EnemyController(ManagerHolder& mgrs) : managers(mgrs) {}$/;"	f	class:EnemyController	access:public	signature:(ManagerHolder& mgrs)
+EnemyController	example6.cpp	/^class EnemyController : public ncc::controller::abstract_interface$/;"	c	file:	inherits:ncc::controller::abstract_interface
+EnemyController::EnemyController	example6.cpp	/^	EnemyController(ManagerHolder& mgrs) : managers(mgrs) {}$/;"	f	class:EnemyController	access:public	signature:(ManagerHolder& mgrs)
+EnemyController::clone_prototype	example6.cpp	/^	ncc::controller::abstract_interface* clone_prototype()$/;"	f	class:EnemyController	file:	access:private	signature:()
+EnemyController::collision_callback	example6.cpp	/^	bool collision_callback(const ncc::ode::collision_info info)$/;"	f	class:EnemyController	access:public	signature:(const ncc::ode::collision_info info)
+EnemyController::control	example6.cpp	/^	bool control()$/;"	f	class:EnemyController	access:public	signature:()
+EnemyController::enemy_object	example6.cpp	/^	ncc::object::weak_ptr enemy_object;$/;"	m	class:EnemyController	file:	access:private
+EnemyController::handle_message	example6.cpp	/^	void handle_message(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)$/;"	f	class:EnemyController	access:public	signature:(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)
+EnemyController::initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:EnemyController	access:public	signature:(const ncc::parameter_list& params)
+EnemyController::managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:EnemyController	file:	access:private
+EnemyController::~EnemyController	example6.cpp	/^	~EnemyController()$/;"	f	class:EnemyController	access:public	signature:()
+LDFLAGS	Makefile	/^LDFLAGS=-lncc -lboost_filesystem -lboost_iostreams -lboost_serialization -llua -losg -losgProducer -losgText -losgTerrain -losgIntrospection -losgGA -losgFX -losgDB -losgSim -losgUtil -losgParticle -lode -lluabind -lalut $/;"	m
+LIBDIRS	Makefile	/^LIBDIRS=-L..\/..\/library\/lib -L..\/..\/external\/luabind\/lib\/gcc4x86\/release -L\/usr\/lib -L\/usr\/local\/lib$/;"	m
+ManagerHolder	example6.cpp	/^struct ManagerHolder$/;"	s	file:
+ManagerHolder::controllerManager	example6.cpp	/^	ncc::controller::manager& controllerManager;$/;"	m	struct:ManagerHolder	file:	access:public
+ManagerHolder::oalManager	example6.cpp	/^	ncc::oal::manager& oalManager;$/;"	m	struct:ManagerHolder	file:	access:public
+ManagerHolder::objectManager	example6.cpp	/^	ncc::object::manager& objectManager;$/;"	m	struct:ManagerHolder	file:	access:public
+ManagerHolder::odeManager	example6.cpp	/^	ncc::ode::manager& odeManager;$/;"	m	struct:ManagerHolder	file:	access:public
+ManagerHolder::osgManager	example6.cpp	/^	ncc::osg::manager& osgManager;$/;"	m	struct:ManagerHolder	file:	access:public
+NCC_INCLUDES	Makefile	/^NCC_INCLUDES=..\/..\/library\/include$/;"	m
+OBJECTS	Makefile	/^OBJECTS = $(SOURCES:.cpp=.o)$/;"	m
+PlayerController	example6.cpp	/^	PlayerController(ManagerHolder& mgrs) : managers(mgrs) {}$/;"	f	class:PlayerController	access:public	signature:(ManagerHolder& mgrs)
+PlayerController	example6.cpp	/^class PlayerController : public ncc::controller::abstract_interface$/;"	c	file:	inherits:ncc::controller::abstract_interface
+PlayerController::PlayerController	example6.cpp	/^	PlayerController(ManagerHolder& mgrs) : managers(mgrs) {}$/;"	f	class:PlayerController	access:public	signature:(ManagerHolder& mgrs)
+PlayerController::ShootBullet	example6.cpp	/^	void ShootBullet()$/;"	f	class:PlayerController	access:public	signature:()
+PlayerController::control	example6.cpp	/^	bool control()$/;"	f	class:PlayerController	access:public	signature:()
+PlayerController::direction	example6.cpp	/^	ncc::vector_3dd direction;$/;"	m	class:PlayerController	file:	access:private
+PlayerController::initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:PlayerController	access:public	signature:(const ncc::parameter_list& params)
+PlayerController::keyPressed	example6.cpp	/^	bool keyPressed;$/;"	m	class:PlayerController	file:	access:private
+PlayerController::managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:PlayerController	file:	access:private
+PlayerController::player	example6.cpp	/^	ncc::object::weak_ptr player;$/;"	m	class:PlayerController	file:	access:private
+PlayerController::~PlayerController	example6.cpp	/^	~PlayerController()$/;"	f	class:PlayerController	access:public	signature:()
+SOURCES	Makefile	/^SOURCES= example1.cpp example2.cpp example3.cpp example4.cpp example5.cpp example6.cpp testgame.cpp rungame.cpp$/;"	m
+ShootBox	Data/main.lua	/^function ShootBox()$/;"	f
+ShootBullet	example6.cpp	/^	void ShootBullet()$/;"	f	class:PlayerController	access:public	signature:()
+WorldController	example6.cpp	/^	WorldController(ManagerHolder& mgrs) : managers(mgrs){}$/;"	f	class:WorldController	access:public	signature:(ManagerHolder& mgrs)
+WorldController	example6.cpp	/^class WorldController : public ncc::controller::abstract_interface$/;"	c	file:	inherits:ncc::controller::abstract_interface
+WorldController::CreateEnemies	example6.cpp	/^	void CreateEnemies()$/;"	f	class:WorldController	access:public	signature:()
+WorldController::WorldController	example6.cpp	/^	WorldController(ManagerHolder& mgrs) : managers(mgrs){}$/;"	f	class:WorldController	access:public	signature:(ManagerHolder& mgrs)
+WorldController::control	example6.cpp	/^	bool control()$/;"	f	class:WorldController	access:public	signature:()
+WorldController::floor	example6.cpp	/^	ncc::object::weak_ptr floor;$/;"	m	class:WorldController	file:	access:private
+WorldController::initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:WorldController	access:public	signature:(const ncc::parameter_list& params)
+WorldController::keyPressed	example6.cpp	/^	bool keyPressed;$/;"	m	class:WorldController	file:	access:private
+WorldController::managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:WorldController	file:	access:private
+WorldController::world	example6.cpp	/^	ncc::object::weak_ptr world;$/;"	m	class:WorldController	file:	access:private
+WorldController::~WorldController	example6.cpp	/^	~WorldController()$/;"	f	class:WorldController	access:public	signature:()
+bullet	example6.cpp	/^	ncc::object::weak_ptr bullet;$/;"	m	class:BulletController	file:	access:private
+clone_prototype	example6.cpp	/^	ncc::controller::abstract_interface* clone_prototype()$/;"	f	class:BulletController	file:	access:private	signature:()
+clone_prototype	example6.cpp	/^	ncc::controller::abstract_interface* clone_prototype()$/;"	f	class:EnemyController	file:	access:private	signature:()
+collision_callback	Data/box.lua	/^function collision_callback(object)$/;"	f
+collision_callback	Data/car.lua	/^function collision_callback(object)$/;"	f
+collision_callback	Data/sphere.lua	/^function collision_callback(object)$/;"	f
+collision_callback	example6.cpp	/^	bool collision_callback(const ncc::ode::collision_info info)$/;"	f	class:BulletController	access:public	signature:(const ncc::ode::collision_info info)
+collision_callback	example6.cpp	/^	bool collision_callback(const ncc::ode::collision_info info)$/;"	f	class:EnemyController	access:public	signature:(const ncc::ode::collision_info info)
+control	Data/box.lua	/^function control()$/;"	f
+control	Data/boxstack.lua	/^function control()$/;"	f
+control	Data/camera.lua	/^function control()$/;"	f
+control	Data/car.lua	/^function control()$/;"	f
+control	Data/main.lua	/^function control()$/;"	f
+control	Data/sphere.lua	/^function control()$/;"	f
+control	Data/template.lua	/^function control()$/;"	f
+control	example5.cpp	/^	bool control()$/;"	f	class:float_controller	access:public	signature:()
+control	example6.cpp	/^	bool control()$/;"	f	class:EnemyController	access:public	signature:()
+control	example6.cpp	/^	bool control()$/;"	f	class:PlayerController	access:public	signature:()
+control	example6.cpp	/^	bool control()$/;"	f	class:WorldController	access:public	signature:()
+controllerManager	example6.cpp	/^	ncc::controller::manager& controllerManager;$/;"	m	struct:ManagerHolder	file:	access:public
+destroy	Data/box.lua	/^function destroy()	$/;"	f
+destroy	Data/boxstack.lua	/^function destroy()	$/;"	f
+destroy	Data/camera.lua	/^function destroy()	$/;"	f
+destroy	Data/car.lua	/^function destroy()	$/;"	f
+destroy	Data/main.lua	/^function destroy()	$/;"	f
+destroy	Data/sphere.lua	/^function destroy()	$/;"	f
+destroy	Data/template.lua	/^function destroy()	$/;"	f
+direction	example6.cpp	/^	ncc::vector_3dd direction;$/;"	m	class:PlayerController	file:	access:private
+enemy_object	example6.cpp	/^	ncc::object::weak_ptr enemy_object;$/;"	m	class:EnemyController	file:	access:private
+float_controller	example5.cpp	/^	float_controller(ncc::osg::manager& osgMgr,$/;"	f	class:float_controller	access:public	signature:(ncc::osg::manager& osgMgr, ncc::ode::manager& odeMgr, ncc::object::manager& objectMgr)
+float_controller	example5.cpp	/^class float_controller : public ncc::controller::abstract_interface$/;"	c	file:	inherits:ncc::controller::abstract_interface
+float_controller::control	example5.cpp	/^	bool control()$/;"	f	class:float_controller	access:public	signature:()
+float_controller::float_controller	example5.cpp	/^	float_controller(ncc::osg::manager& osgMgr,$/;"	f	class:float_controller	access:public	signature:(ncc::osg::manager& osgMgr, ncc::ode::manager& odeMgr, ncc::object::manager& objectMgr)
+float_controller::initialize	example5.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:float_controller	access:public	signature:(const ncc::parameter_list& params)
+float_controller::object	example5.cpp	/^	ncc::object::weak_ptr object;$/;"	m	class:float_controller	file:	access:private
+float_controller::objectManager	example5.cpp	/^	ncc::object::manager& objectManager;$/;"	m	class:float_controller	file:	access:private
+float_controller::odeManager	example5.cpp	/^	ncc::ode::manager& odeManager;$/;"	m	class:float_controller	file:	access:private
+float_controller::osgManager	example5.cpp	/^	ncc::osg::manager& osgManager;$/;"	m	class:float_controller	file:	access:private
+float_controller::~float_controller	example5.cpp	/^	~float_controller()$/;"	f	class:float_controller	access:public	signature:()
+floor	example6.cpp	/^	ncc::object::weak_ptr floor;$/;"	m	class:WorldController	file:	access:private
+handle_message	Data/box.lua	/^function handle_message(message, params, from)$/;"	f
+handle_message	Data/boxstack.lua	/^function handle_message(message, params, from)$/;"	f
+handle_message	Data/camera.lua	/^function handle_message(message, params, from)$/;"	f
+handle_message	Data/car.lua	/^function handle_message(message, params, from)$/;"	f
+handle_message	Data/main.lua	/^function handle_message(message, params, from)$/;"	f
+handle_message	Data/sphere.lua	/^function handle_message(message, params, from)$/;"	f
+handle_message	Data/template.lua	/^function handle_message(message, params, from)$/;"	f
+handle_message	example6.cpp	/^	void handle_message(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)$/;"	f	class:BulletController	access:public	signature:(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)
+handle_message	example6.cpp	/^	void handle_message(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)$/;"	f	class:EnemyController	access:public	signature:(const ncc::parameter& message, const ncc::parameter_list& params, ncc::controller::abstract_interface& sender)
+initialize	Data/box.lua	/^function initialize(params)$/;"	f
+initialize	Data/boxstack.lua	/^function initialize(params)$/;"	f
+initialize	Data/camera.lua	/^function initialize(params)$/;"	f
+initialize	Data/car.lua	/^function initialize(params)$/;"	f
+initialize	Data/main.lua	/^function initialize(params)$/;"	f
+initialize	Data/sphere.lua	/^function initialize(params)$/;"	f
+initialize	Data/template.lua	/^function initialize(params)$/;"	f
+initialize	example5.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:float_controller	access:public	signature:(const ncc::parameter_list& params)
+initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:BulletController	access:public	signature:(const ncc::parameter_list& params)
+initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:EnemyController	access:public	signature:(const ncc::parameter_list& params)
+initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:PlayerController	access:public	signature:(const ncc::parameter_list& params)
+initialize	example6.cpp	/^	bool initialize(const ncc::parameter_list& params)$/;"	f	class:WorldController	access:public	signature:(const ncc::parameter_list& params)
+keyPressed	example6.cpp	/^	bool keyPressed;$/;"	m	class:PlayerController	file:	access:private
+keyPressed	example6.cpp	/^	bool keyPressed;$/;"	m	class:WorldController	file:	access:private
+main	example1.cpp	/^int main(int argc, const char* argv)$/;"	f	signature:(int argc, const char* argv)
+main	example2.cpp	/^int main(int argc, const char* argv)$/;"	f	signature:(int argc, const char* argv)
+main	example3.cpp	/^int main(int argc, const char* argv)$/;"	f	signature:(int argc, const char* argv)
+main	example4.cpp	/^int main(int argc, const char* argv)$/;"	f	signature:(int argc, const char* argv)
+main	example5.cpp	/^int main(int argc, const char* argv)$/;"	f	signature:(int argc, const char* argv)
+main	example6.cpp	/^int main(int argc, const char* argv)$/;"	f	signature:(int argc, const char* argv)
+main	rungame.cpp	/^int main (int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+main	testgame.cpp	/^int main (int argc, char* argv[])$/;"	f	signature:(int argc, char* argv[])
+managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:BulletController	file:	access:private
+managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:EnemyController	file:	access:private
+managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:PlayerController	file:	access:private
+managers	example6.cpp	/^	ManagerHolder& managers;$/;"	m	class:WorldController	file:	access:private
+oalManager	example6.cpp	/^	ncc::oal::manager& oalManager;$/;"	m	struct:ManagerHolder	file:	access:public
+object	example5.cpp	/^	ncc::object::weak_ptr object;$/;"	m	class:float_controller	file:	access:private
+objectManager	example5.cpp	/^	ncc::object::manager& objectManager;$/;"	m	class:float_controller	file:	access:private
+objectManager	example6.cpp	/^	ncc::object::manager& objectManager;$/;"	m	struct:ManagerHolder	file:	access:public
+odeManager	example5.cpp	/^	ncc::ode::manager& odeManager;$/;"	m	class:float_controller	file:	access:private
+odeManager	example6.cpp	/^	ncc::ode::manager& odeManager;$/;"	m	struct:ManagerHolder	file:	access:public
+osgManager	example5.cpp	/^	ncc::osg::manager& osgManager;$/;"	m	class:float_controller	file:	access:private
+osgManager	example6.cpp	/^	ncc::osg::manager& osgManager;$/;"	m	struct:ManagerHolder	file:	access:public
+player	example6.cpp	/^	ncc::object::weak_ptr player;$/;"	m	class:PlayerController	file:	access:private
+player_position	example6.cpp	/^ncc::vector_3dd player_position;$/;"	v
+world	example6.cpp	/^	ncc::object::weak_ptr world;$/;"	m	class:WorldController	file:	access:private
+~BulletController	example6.cpp	/^	~BulletController()$/;"	f	class:BulletController	access:public	signature:()
+~EnemyController	example6.cpp	/^	~EnemyController()$/;"	f	class:EnemyController	access:public	signature:()
+~PlayerController	example6.cpp	/^	~PlayerController()$/;"	f	class:PlayerController	access:public	signature:()
+~WorldController	example6.cpp	/^	~WorldController()$/;"	f	class:WorldController	access:public	signature:()
+~float_controller	example5.cpp	/^	~float_controller()$/;"	f	class:float_controller	access:public	signature:()
